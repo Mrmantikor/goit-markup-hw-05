@@ -675,6 +675,11 @@ img {
 .button-modal:focus {
   background-color: #404bbf;
   border: none;
+  fill: #ffffff;
+}
+
+.svg-close {
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal-text {
@@ -724,6 +729,19 @@ img {
   border-color: #4D5AE5;
 }
 
+.svg-card {
+  position: absolute;
+  left: 16px;
+  top: 50%;
+  transform: translateY(-50%);
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+}
+
+.svg-card:focus {
+  fill: #4D5AE5;
+}
+
 /* Phone container */
 /* Email container */
 /* Comment */
@@ -753,10 +771,4 @@ img {
   background-color: #4D5AE5;
   border: none;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-
-.svg-item {
-  color: #0000;
-  height: 300px;
 }
