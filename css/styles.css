@@ -691,6 +691,7 @@ img {
   ...
 }
 
+/* Name container */
 .second-modal-div {
   margin-bottom: 8px;
 }
@@ -707,6 +708,7 @@ img {
 .third-div {
   position: relative;
 }
+
 .form-input {
   width: 100%;
   height: 40px;
@@ -720,4 +722,11 @@ img {
 
 .form-input:focus {
   border-color: #4D5AE5;
+}
+
+/* Phone container */
+/* Email container */
+/* Comment */
+.comment-div {
+
 }
