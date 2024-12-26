@@ -560,10 +560,11 @@ img {
 
 .form {
   display: flex;
+  gap: 24px;
 }
 
 .form-label {
-  gap: 24px;
+
 }
 
 .email-input {
@@ -575,7 +576,7 @@ img {
   line-height: 2;
   letter-spacing: 0.04em;
   padding-left: 16px;
-  box-shadow: 0px 4px 4px rgba(0,0,0,0,15);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   color: #ffffff;
 
@@ -605,6 +606,10 @@ img {
   stroke-width: 0;
   stroke: currentColor;
   fill: currentColor;
+}
+
+.footer-icon-svg {
+  margin-left: 16px;
 }
 
 /* Modal Overlay */
