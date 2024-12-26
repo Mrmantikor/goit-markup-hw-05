@@ -799,6 +799,12 @@ img {
     fill: #f4f4fd;
 }
 
+.checkbox-span:checked {
+  border: none;
+  background-color: #404bbf;
+  fill: #f4f4fd;
+}
+
 .link-privacy {
   color: #4d5ae5;
 }
