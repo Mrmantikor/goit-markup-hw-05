@@ -468,6 +468,7 @@ img {
   background-color: #2e2f42;
   padding: 100px 0;
 }
+
 .footer-page .container {
   display: flex;
   flex-direction: row;
@@ -598,11 +599,17 @@ img {
 
 .button-footer {
   margin-left: 16px;
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  stroke-width: 0;
+  stroke: currentColor;
+  fill: currentColor;
 }
 
 /* Modal Overlay */
 
-.modal-overlay {
+..modal-overlay {
   background-color: rgba(0, 0, 0, 0.5);
   
   position: fixed;
@@ -620,7 +627,7 @@ img {
   transition: opacity 250ms ease-in-out;
 }
 
-.modal-overlay.is-open {
+..modal-overlay.is-open {
   opacity: 1;
   pointer-events: auto;
 }
